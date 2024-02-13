@@ -12,4 +12,7 @@ class UNREAL_TEST_API TestClass
 public:
 	TestClass();
 	~TestClass();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	APawn pawn;
 };
